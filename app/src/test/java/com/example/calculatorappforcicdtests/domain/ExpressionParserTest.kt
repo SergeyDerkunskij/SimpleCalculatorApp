@@ -8,7 +8,7 @@ class ExpressionParserTest{
 
     @Test
     fun `Simple expression is properly parsed`(){
-        parser = ExpressionParser("3+5-3x4/3")
+        parser = ExpressionParser("3-5-3x4/3")
 
         val actual = parser.parse()
 
